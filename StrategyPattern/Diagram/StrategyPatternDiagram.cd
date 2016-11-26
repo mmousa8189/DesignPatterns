@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="StrategyPattern.Duck">
+    <Position X="6.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAQAAAAAAAAAAAAAQAAAQAAACABAAAAAAAAAAA=</HashCode>
+      <FileName>Code\Duck.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StrategyPattern.DecoyDuck">
+    <Position X="6.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Code\DecoyDuck.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StrategyPattern.FakeQuack" BaseTypeListCollapsed="true">
+    <Position X="8" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Code\FakeQuack.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="StrategyPattern.FlyNoWay" BaseTypeListCollapsed="true">
+    <Position X="9.75" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>Code\FlyNoWay.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="StrategyPattern.FlyRocketPowered" BaseTypeListCollapsed="true">
+    <Position X="11.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>Code\FlyRocketPowered.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="StrategyPattern.FlyWithWings" BaseTypeListCollapsed="true">
+    <Position X="13.25" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>Code\FlyWithWings.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="StrategyPattern.MallardDuck">
+    <Position X="2.75" Y="3.75" Width="1.5" />
+    <InheritanceLine Type="StrategyPattern.Duck" FixedToPoint="true">
+      <Path>
+        <Point X="7.5" Y="2.824" />
+        <Point X="7.5" Y="3.375" />
+        <Point X="3.75" Y="3.375" />
+        <Point X="3.75" Y="3.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Code\MallardDuck.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StrategyPattern.ModelDuck">
+    <Position X="8" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Code\ModelDuck.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StrategyPattern.MuteQuack" BaseTypeListCollapsed="true">
+    <Position X="4.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Code\MuteQuack.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="StrategyPattern.Quack" BaseTypeListCollapsed="true">
+    <Position X="6.25" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Code\Quack.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="StrategyPattern.RedHeadDuck">
+    <Position X="4.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Code\RedHeadDuck.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StrategyPattern.RubberDuck">
+    <Position X="9.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Code\RubberDuck.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StrategyPattern.Squeak" BaseTypeListCollapsed="true">
+    <Position X="2.75" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Code\Squeak.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="StrategyPattern.IFlyBehavior">
+    <Position X="10.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>Code\IFlyBehavior.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="StrategyPattern.IQuackBehavior">
+    <Position X="4.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Code\IQuackBehavior.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
