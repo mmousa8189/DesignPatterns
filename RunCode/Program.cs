@@ -41,6 +41,11 @@ namespace RunCode
             model.FlyBehavior = new FlyRocketPowered();
             model.PerformFly();
         }
+        private static void ObserverPatternRun()
+        {
+            Console.WriteLine();
+            Console.WriteLine(" Under Implementation !!");
+        }
         #endregion
 
         #region Helper
@@ -51,6 +56,9 @@ namespace RunCode
             {
                 case "1":
                     StrategyPatternRun();
+                    break;
+                case "2":
+                    ObserverPatternRun();
                     break;
             }
         }
